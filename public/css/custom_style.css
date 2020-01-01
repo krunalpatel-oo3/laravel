@@ -1,0 +1,33 @@
+.myloader{
+	position: fixed;
+    background: rgba(0,0,0,0.3);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1111111;
+}
+.myloader .pace-demo{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+label.error-invalid{
+	color: red;
+}
+.btn-flat:hover{
+    transform: scale(1.1);
+    background: white;
+}
+.btn-flat:focus{
+    background: white;
+}
+#DataTables_Table_0_wrapper thead tr {
+    background: #00537D;
+    color: white;
+}
+#DataTables_Table_0_wrapper #DataTables_Table_0_info{
+    padding: 5px;
+}
